@@ -7,11 +7,12 @@
 _You need the docker cli and docker desktop for this to work_
 
 1. Open up docker desktop to ensure that the docker daemon is running.
-2. Open up a split terminal.
-3. In any terminal: `npm install`
-4. In any terminal: `docker compose up`
-5. On one terminal: `npm server start`
-6. On the other terminal: `npm worker start`
+2. Open up 3 split terminals.
+4. In any terminal: `npm install`
+5. In any terminal: `docker compose up`
+6. In one terminal: `brew install redis`
+7. In another terminal: `npm server start`
+8. In the final terminal: `npm worker start`
 
 ---
 
