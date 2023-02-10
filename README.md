@@ -4,10 +4,14 @@
 
 ## **How to use**
 
+_You need the docker cli and docker desktop for this to work_
+
 1. Open up docker desktop to ensure that the docker daemon is running.
 2. Open up a split terminal.
-3. On one terminal: `npm server start`
-4. On the other terminal: `npm worker start`
+3. In any terminal: `npm install`
+4. In any terminal: `docker compose up`
+5. On one terminal: `npm server start`
+6. On the other terminal: `npm worker start`
 
 ---
 
